@@ -58,7 +58,6 @@ const std::vector<std::pair<float, float>> MIC_POSITIONS = {
 };
 
 // Pre-computes the phase shifts for all angles, mics, and frequencies
-// Pre-computes the phase shifts for all angles, mics, and frequencies
 std::vector<SteeringVector> precompute_steering_vectors() {
     std::vector<SteeringVector> all_steering_vectors(360);
 
